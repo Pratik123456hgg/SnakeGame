@@ -39,8 +39,8 @@ def food_show():
 #font and background
 font_1 = pygame.font.SysFont("Times New Roman",30)
 font_2 = pygame.font.SysFont('Arial Black',70)
-bg_img = pygame.image.load('bg.png')
-mixer.music.load('game_bg.mp3')
+bg_img = pygame.image.load('background.png')
+mixer.music.load('game_background.mp3')
 mixer.music.play(-1)
 # draw_text and 
 def draw_text(text,text_col,font,x,y):
